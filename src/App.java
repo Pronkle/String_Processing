@@ -52,6 +52,7 @@ public class App {
         pw.println(combined);
 
         // Task 2: String Searching
+        // THIS IS WHERE YOU CHANGE THE SEARCHED STRING: !!!!!!!!!!!!!!!!!!!!!!!!!!
         String p = "wahhhhhhhhhh";
         ArrayList<Integer> instances = new ArrayList<>();
         int fromindex = 0;
@@ -131,7 +132,7 @@ public class App {
         }
         pw.printf("%s has the highest occurence of %d \n", mostoccuringterm, mostoccuring);
 
-        // task 5: length :) 
+        // task 6: length :) (why is this the easiest thing? why is it last? i don't know)
         String lastline = r.readLine();
         pw.println(lastline.length());
         pw.close();
